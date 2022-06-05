@@ -2,6 +2,8 @@
 
 A very tiny 8x8 Pixel LED Matrix (20x20mm) with 64 SK6805-EC15 (1.5x1.5mm) LEDs. With four panels in a chain (8x32 Pixel) perfect for the [PixelIt](https://github.com/o0shojo0o/PixelIt) project.
 
+![image](.github/demo.gif)
+
 ![image](https://user-images.githubusercontent.com/10727275/172069438-2cb117cd-d52f-411f-bfd3-2fe7549021d1.jpeg)
 
 ![image](https://user-images.githubusercontent.com/10727275/172069338-d31414f5-3b8f-430c-a812-5a8e9ede49ee.jpeg)
