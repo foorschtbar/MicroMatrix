@@ -24,6 +24,7 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
+# KiKit
+__pycache__
+
+

@@ -1,0 +1,61 @@
+{
+  "layout": {
+    "type": "grid",
+    "rows": 1,
+    "cols": 4,
+    "hspace": "2mm",
+    // "hbackbone": "5mm",
+    // "vbackbone": "5mm",
+    // "hboneskip": 1,
+    // "vboneskip": 1,
+    "renamenet": "Board_{n}-{orig}",
+    "renameref": "{orig}"
+  },
+  "source": {
+    "type": "auto",
+    "tolerance": "20mm"
+  },
+  "tabs": {
+    "type": "fixed",
+    "width": "3.2mm",
+    "vcount": 2,
+    "hcount": 0
+  },
+  "cuts": {
+    "type": "mousebites",
+    "drill": "0.4mm",
+    "spacing": "0.6mm",
+    "offset": "-0.2mm"
+  },
+  "framing": {
+    "type": "railstb",
+    "width": "5mm",
+    "space": "3mm",
+    "fillet": "1mm"
+  },
+  "tooling": {
+    "type": "3hole",
+    "hoffset": "2.5mm",
+    "voffset": "2.5mm",
+    "size": "1.152mm",
+    "paste": false
+  },
+  "fiducials": {
+    "type": "3fid",
+    "hoffset": "5mm",
+    "voffset": "2.5mm",
+    "coppersize": "2mm",
+    "opening": "1mm"
+  },
+  // "copperfill": {
+  //   "type:": "hatched",
+  //   "clearance": "1mm",
+  //   "spacing": "0.5mm",
+  //   "width": "0.5mm"
+  // },
+  "post": {
+    "type": "auto",
+    "millradius": "1mm",
+    "script": "kikit_post.py"
+  }
+}
