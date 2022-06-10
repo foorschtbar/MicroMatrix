@@ -1,12 +1,12 @@
-# SK6805EC15-Matrix
+#  MicroMatrix
 
-A very tiny 8x8 Pixel LED Matrix (20x20mm) with 64 SK6805-EC15 (1.5x1.5mm) LEDs. With four panels in a chain (8x32 Pixel) perfect for the [PixelIt](https://github.com/o0shojo0o/PixelIt) project.
+A very tiny 8x8 Pixel LED Matrix (20x20mm) with 64x SK6805-EC15 (1.5x1.5mm) LEDs. With four panels in a chain (8x32 Pixel) perfect for the [PixelIt](https://github.com/o0shojo0o/PixelIt) project.
 
 ![image](.github/demo.gif)
 
-![image](https://user-images.githubusercontent.com/10727275/172069438-2cb117cd-d52f-411f-bfd3-2fe7549021d1.jpeg)
+![image](.github/example1.jpeg)
 
-![image](https://user-images.githubusercontent.com/10727275/172069338-d31414f5-3b8f-430c-a812-5a8e9ede49ee.jpeg)
+![image](.github/example2.jpeg)
 
 ## Layout
 
@@ -27,7 +27,21 @@ A very tiny 8x8 Pixel LED Matrix (20x20mm) with 64 SK6805-EC15 (1.5x1.5mm) LEDs.
 
 63 62 61 60 59 58 57 56
 ```
+## BOM
 
-## Links
+See [iBOM](./fab/ibom.html)
+## Production and Assembly
+
+1. Open KiCad Command Prompt
+2. Panelize PCB with [KiKit](https://github.com/yaqwsx/KiKit)
+
+    `kikit panelize -p kikit_panelize.json MicroMatrix.kicad_pcb MicroMatrix_Panel.kicad_pcb`
+
+3. Build fabrication files (Gerber, BOM, POS)
+
+    `kikit fab jlcpcb --no-drc --assembly --field "LCSC Part Number" --schematic MicroMatrix.kicad_sch MicroMatrix_Panel.kicad_pcb fab`
+
+
+## Other
 
 Inspired by [gumslone/led-matrix](https://oshwlab.com/gumslone/led-matrix).
