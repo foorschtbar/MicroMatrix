@@ -15,7 +15,7 @@ def kikitPostprocess(panel, arg):
   	# add JLCPCB order number
 	position = resolveAnchor("mb")(panel.boardSubstrate.boundingBox())
 	position.y -= int(2.5 * mm)
-	panel.addText("JLCJLCJLCJLC - ${REVISION} - ${ISSUE_DATE}", position, hJustify=EDA_TEXT_HJUSTIFY_T.GR_TEXT_HJUSTIFY_CENTER, thickness=int(0.2 * mm))
+	panel.addText("JLCJLCJLCJLC - REV${REVISION} - ${ISSUE_DATE}", position, hJustify=EDA_TEXT_HJUSTIFY_T.GR_TEXT_HJUSTIFY_CENTER, thickness=int(0.2 * mm))
 
   	# # Add top panel dimension
 	# dim = pcbnew.PCB_DIM_ALIGNED(panel.board)

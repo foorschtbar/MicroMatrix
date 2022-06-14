@@ -17,15 +17,15 @@
   },
   "tabs": {
     "type": "fixed",
-    "width": "3.2mm",
+    "width": "3mm",
     "vcount": 2,
     "hcount": 0
   },
   "cuts": {
     "type": "mousebites",
-    "drill": "0.4mm",
-    "spacing": "0.6mm",
-    "offset": "-0.2mm"
+    "drill": "0.6mm",
+    "spacing": "1mm",
+    "offset": "-0.3mm"
   },
   "framing": {
     "type": "railstb",
