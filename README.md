@@ -42,6 +42,9 @@ See [iBOM](./fab/ibom.html)
     `kikit fab jlcpcb --no-drc --assembly --field "LCSC Part Number" --schematic MicroMatrix.kicad_sch MicroMatrix_Panel.kicad_pcb fab`
 
 
+![image](.github/panel.png)
+
+
 ## Other
 
 Inspired by [gumslone/led-matrix](https://oshwlab.com/gumslone/led-matrix).
