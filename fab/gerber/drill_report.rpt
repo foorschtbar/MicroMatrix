@@ -1,5 +1,5 @@
 Drill report for MicroMatrix_Panel.kicad_pcb
-Created on Tue Jun 14 15:41:47 2022
+Created on Sun Jun 19 09:18:47 2022
 
 Copper Layer Stackup:
     =============================================================
@@ -18,7 +18,7 @@ Drill file 'MicroMatrix_Panel.drl' contains
 Not plated through holes are merged with plated holes
     unplated through holes:
     =============================================================
-    T2  0.600mm  0.0236"  (64 holes)
+    T2  0.600mm  0.0236"  (32 holes)
     T3  1.152mm  0.0454"  (3 holes)
 
-    Total unplated holes count 67
+    Total unplated holes count 35
