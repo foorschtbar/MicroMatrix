@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SK6805-EC15")(type "KiCad")(uri "${KIPRJMOD}/Libs/SK6805-EC15.pretty/SK6805-EC15.kicad_sym")(options "")(descr ""))
+)
